@@ -18,13 +18,18 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   
+  //***Day 1 Challenge:
+  
+  
+  
+  //***Day 2 Code Challenge: Write a method that determines if two strings are anagrams of each other.
+  
   //Day 2 Challenge Example A:
   NSString *stringOne = @"too many secrets";
   NSString *stringTwo = @"setec astronomy";
   
   Day2Challenge *day2ChallengeExampleA = [[Day2Challenge alloc] init];
   [day2ChallengeExampleA isAnAnagram:stringOne stringTwo:stringTwo];
-  
   
   //Day 2 Challenge Example B:
   NSString *stringA = @"watermelon";
