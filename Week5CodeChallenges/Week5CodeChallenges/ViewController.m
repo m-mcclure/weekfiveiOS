@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Day2Challenge.h"
+#import "Day3Challenge.h"
 
 @interface ViewController ()
 
@@ -37,6 +38,13 @@
   
   Day2Challenge *day2ChallengeExampleB = [[Day2Challenge alloc] init];
   [day2ChallengeExampleB isAnAnagram:stringA stringTwo:stringB];
+  
+  //Day 3 Challenge example:
+  
+  NSString *stringWithDigits = @"I have 3 apples, 2 watermelons, and 16 oranges.";
+  Day3Challenge *day3ChallengeExampleA = [[Day3Challenge alloc] init];
+  [day3ChallengeExampleA sumOfDigits:stringWithDigits];
+  
 }
 
 - (void)didReceiveMemoryWarning {

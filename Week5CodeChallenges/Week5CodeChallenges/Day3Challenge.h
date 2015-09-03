@@ -12,4 +12,7 @@
 
 @interface Day3Challenge : NSObject
 
+@property (strong, nonatomic) NSString *string;
+- (int)sumOfDigits:(NSString *)string;
+
 @end
